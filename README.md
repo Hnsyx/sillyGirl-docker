@@ -30,7 +30,6 @@ ranqi03/sillygirl:latest
 #完整映射
 docker run -dit \
    -v $PWD/sillyGirl/conf/:/sillyGirl/conf/ \
-   -v $PWD/sillyGirl/data/:/sillyGirl/data/ \
    -v $PWD/sillyGirl/develop/:/sillyGirl/develop/ \
    -v $PWD/sillyGirl/logs/:/sillyGirl/logs/ \
    -v $PWD/sillyGirl/:/etc/sillyGirl \
