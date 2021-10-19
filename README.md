@@ -53,9 +53,11 @@ go env
 go build
 ./sillyGirl 
 
-# QQ二维码出现后用小号扫码登录 之后用手机小号的QQ向自己的小号发送set qq matsers 主人QQ
+# QQ二维码出现后用小号扫码登录 之后用手机登录小号的QQ向自己的小号的账号发送set qq matsers 主人QQ
+
+# 设置主人完毕之后使用主人QQ像机器人QQ发送 set qq onself false
+# 开启傻妞自动更新 用主人QQ发送给机器人QQ set sillyGirl auto_update true
 # 开启傻妞自动升级是否通知 用主人QQ发送给机器人QQ set sillyGirl update_notify true
-# 是否开启傻妞自动更新 用主人QQ发送给机器人QQ set sillyGirl auto_update true
 
 ./sillyGirl -d  #后台运行代码
 ```
