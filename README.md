@@ -19,9 +19,23 @@
 
 运行镜像
 ``` bash
+#精简版配置
 docker run -dit \
+   -v $PWD/sillyGirl/develop/:/sillyGirl/develop/ \
+   -v $PWD/sillyGirl/conf/:/sillyGirl/conf/ \
+   -v $PWD/sillyGirl/:/etc/sillyGirl \
    --name sillyGirl \
-   ranqi03/sillygirl:latest
+ranqi03/sillygirl:latest
+
+#完整映射
+docker run -dit \
+   -v $PWD/sillyGirl/conf/:/sillyGirl/conf/ \
+   -v $PWD/sillyGirl/data/:/sillyGirl/data/ \
+   -v $PWD/sillyGirl/develop/:/sillyGirl/develop/ \
+   -v $PWD/sillyGirl/logs/:/sillyGirl/logs/ \
+   -v $PWD/sillyGirl/:/etc/sillyGirl \
+   --name sillyGirl \
+ranqi03/sillygirl:latest
 ```
 进入容器
 `docker exec -it sillyGirl bash`
