@@ -1,5 +1,6 @@
 # sillyGirl 傻妞
 
+<a href="https://github.com/WindFgg/sillyGirl-docker"><img src="https://img.shields.io/github/stars/WindFgg/sillyGirl-docker.svg?style=popout-square" alt="GitHub stars"></a>
 <a href="https://hub.docker.com/r/ranqi03/sillygirl"><img src="https://img.shields.io/docker/pulls/ranqi03/sillygirl?style=popout-square" alt="Docker Pulls"></a>
 <a href="https://hub.docker.com/r/ranqi03/sillygirl"><img src="https://img.shields.io/docker/image-size/ranqi03/sillygirl?style=popout-square" alt="Docker Size"></a>
 <a href="https://hub.docker.com/r/ranqi03/sillygirl"><img src="https://img.shields.io/docker/stars/ranqi03/sillygirl?style=popout-square" alt="Docker Stars"></a>
