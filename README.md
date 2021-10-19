@@ -9,6 +9,8 @@
 
 镜像更新会在TG频道通知 建议关注频道
 
+[Github说明文档](https://github.com/WindFgg/sillyGirl-docker)
+
 [TG 频道](https://t.me/kingfeng)   
 
 [TG 群组](https://t.me/joinchat/XV2AZcvzFIUxNjI9)
