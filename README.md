@@ -10,6 +10,8 @@
 
 镜像更新会在TG频道通知 建议关注频道
 
+傻妞使用纯净版ubuntu制作 傻妞自带更新 因此不需要频繁更新docker镜像
+
 [Github说明文档](https://github.com/WindFgg/sillyGirl-docker)
 
 [TG 频道](https://t.me/kingfeng)   
